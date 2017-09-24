@@ -6,7 +6,7 @@ body{
 }
 
 nav{
-  background-color: #333;
+  background-color: #808080;
   margin: 0;
   overflow: hidden;
 }
@@ -22,10 +22,20 @@ nav ul li {
 }
 
 nav > ul > li > a {
-    color: #aaa;
-    background-color:#FF0;
+    color: #ffffff;
+    background-color:#808080;
     display: block;
     line-height: 2em;
     padding: 0.5em 0.5em;
     text-decoration: none;
+}
+
+
+nav li:hover {
+    background-color: #000000;
+}
+
+nav li:hover > ul{
+    position:absolute;
+    display : block;
 }
